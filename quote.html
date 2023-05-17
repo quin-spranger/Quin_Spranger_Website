@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+    <title>Quin's Lawn Mowing | Quote</title>
+    <link rel="stylesheet" type="text/css" href="css/home_style.css">
+    <link rel="icon" type="image/jpg" href="https://c-cl.cdn.smule.com/smule-gg-s-sf-bck3/arr/01/82/a5e07ebc-3dfe-41c4-ac71-138ff89d980b.jpg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ovo&family=Prata&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+ 
+  <body>
+    <div id="wrapper">
+      <header>Quote</header>
+      <nav>
+        <ul>
+          <li> <a href="home.html"> Home </a> </li>
+          <li id="dropdown">
+              <a href="about.html"> About </a>
+                <ul class="hidden">
+                  <li><a href="about.html"> What we do </a></li>
+                  <li><a href="about.html"> About us </a></li>
+                </ul>
+          <li> <a href="contact.html"> Contact Us </a> </li>
+          
+        </ul>
+      </nav>
+      <section>
+        <h1>Lawn Quote</h1>
+        <p>We charge $0.50 per square metre of your lawn.</p>
+        <br>
+        <form name="lawncalc">
+          Lawn Size (m<sup>2</sup>): <input type="number" name="numnum1">
+          <br>
+          <br>
+          Price To Mow Lawns: <input type="number" name="numres" readonly="readonly">
+          <br>
+          <br>
+          <input type="button" class="button" value="Calculate Quote" onClick="sumValues()">
+        </form>
+        <script type= "text/javascript">
+          
+          function sumValues()
+          {
+            var num1, num2, res;
+            num1=Number(document.lawncalc.numnum1.value);
+            num2=0.500;
+            res=num1*num2
+            document.lawncalc.numres.value=res;
+          }
+        </script>
+      </section>
+      <footer>Quin's Lawn Mowing<sup>tm</sup> 2023</footer>
+    </div>
+  </body>
+</html>
+

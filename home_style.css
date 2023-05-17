@@ -1,0 +1,220 @@
+body {
+  background-color: white;
+  background-image: url("https://wallpapercave.com/wp/wp7757177.jpg");
+  background-size: cover;
+  padding: 0;
+ /* margin: 0; */
+}
+
+#wrapper {
+  width: 60%;
+  margin: auto;
+  padding: 0;
+  background: white;
+  box-shadow: 6px 8px 12px rgba(0, 0, 0, .8);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+
+header {
+  color: white;
+  padding-left: 30px;
+  display: block;
+  font-size: 65px;
+  font-family: 'Bree Serif', serif;
+  background-color: #543215;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /*font-weight: bold;*/
+}
+
+section {
+  padding-left: 30px;
+  padding-right: 30px;
+  /*background-color: #543215;*/
+  background: rgb(84,50,21);
+  background: linear-gradient(180deg, rgba(84,50,21,1) 0%, rgba(101,47,0,1) 35%, rgba(139,64,0,1) 100%);
+  height: auto;
+  padding-bottom: 10px;
+  color: white;
+  /*font-weight: bold;*/
+  font-family: 'Ovo', serif;
+  
+}
+
+footer {
+  padding-left: 30px;
+  background-color: #1e211e;
+  height: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  color: white;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+nav {
+  padding-left: 22px;
+  background-color: #1e211e;
+  /* height: 50px; */
+  color: white;
+  font-weight: bold;
+  font-style: oblique;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  
+}
+
+nav ul li { /*  nav settings */
+  font-size: 25px;
+  display: inline-block;
+  padding: 10px 5px 10px 5px;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  /*padding-right:5px;*/
+  /*padding-left: 5px;*/
+}
+
+nav li ul {
+  padding: 0;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 0;
+  width: 150px;
+}
+
+nav li ul li {  /* styles dropdown menu */
+  
+  display: block;
+  /*padding: 20px;*/
+  /*background-color:grey;*/
+  background-color: #1e211e;
+  border-radius: 15px 15px 15px 15px;
+  border: 2px solid black;
+
+}
+
+.hidden {
+  display:none;
+  
+}
+
+nav ul {
+  width:100%;
+  margin: auto;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 2.5px;
+  color: white;
+  text-decoration: none;
+}
+
+#dropdown:hover .hidden {
+  display: block;
+}
+
+/* li a:hover {
+  background-color: white;
+  color: grey;
+} */
+
+h1 {
+  background-color: clear;
+  padding: 10px 0 10px 0;
+  margin: 0;
+  color: white;
+  font-family: 'Prata', serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Prata', serif;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Prata', serif;
+}
+
+li a:hover{
+  text-shadow: 2px 2px 5px white;
+}
+
+
+p {
+  margin: 0;
+  padding: 8px 0 8px 0;
+  color: white;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+  
+  
+.button {border-radius: 15px;}
+  input[type=number]  {
+    width:50px;
+    border-radius: 4px;
+}
+
+.button:hover {
+  background-color:green;
+  border: 2px solid white;
+}
+
+.button:active {
+  color: black;
+}
+
+#Link {
+  color:#2aee2a;
+}
+
+#AddressLink {
+  color: #2aee2a;
+}
+
+#img {
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#table {
+  height: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  #wrapper { width: 100%;}
+}
+
+#CEO {
+  width: 25%;
+  display: -webkit-box;
+  margin-left: 55%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
